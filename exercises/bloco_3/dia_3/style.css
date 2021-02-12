@@ -8,23 +8,38 @@
 .super-mario {
     position: absolute;
     height: 300px;
+    left: 150px;
+    border-radius: 40px;
+    z-index: 2;
 }
 
 .goomba {
     position: absolute;
     height: 300px;
-    top: 200px;
+    top: 300px;
     right: 400px;
+    z-index: 1;
 }
 
 .baloon {
     position: absolute;
     height: 100px;
+    top: 40px;
+    z-index: 3;
+    border-radius: 500px;
 }
 
+.word {
+    position: absolute;
+    top: 60px;
+    z-index: 4;
+    width: 80px;
+    left: 40px;
+    
+}
 .bowser {
     position: absolute;
-    right:80px;
+    right:50px;
     height: 400px;
 
 }
