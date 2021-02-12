@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.super-mario {
+    position: absolute;
+    height: 300px;
+}
+
+.goomba {
+    position: absolute;
+    height: 300px;
+    top: 200px;
+    right: 400px;
+}
+
+.baloon {
+    position: absolute;
+    height: 100px;
+}
+
+.bowser {
+    position: absolute;
+    right:80px;
+    height: 400px;
+
+}
