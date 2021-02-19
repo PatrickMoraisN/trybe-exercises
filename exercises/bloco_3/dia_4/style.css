@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#cabecalho {
+    background-color: rgb(211, 127, 0);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header p {
+    font-size: 30px;
+}
+
+#stomatopoda {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#menu {
+    background-color: rgb(97, 97, 97);
+    
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover {
+    text-shadow: 1px 1px 20px ;
+}
+
