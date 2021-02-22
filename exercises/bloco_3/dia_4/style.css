@@ -59,37 +59,43 @@ img {
     padding: 10px;
     height: 600px;
 }
-
+section{
+    position: relative;
+}
 section h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.artigo-fatos {
-    background: chartreuse;
-    height: 800px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.fatos-cientificos, .fatos-curiosos {
-    background: chocolate;
-    margin: 20px;
-    margin-top: 80px;
-    height: 700px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-#fatos {
-    font-size: 30px;
-    margin-top: 30px;
     position: absolute;
-    margin-left: 43%;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.fatos{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.fatos h2{
+    border-bottom: solid 1px rgb(245, 4, 4);
+    top: 0px;
+}
+
+.fatos-curiosos, .fatos-cientificos{
+    font-size: 1.5rem;
+    position: relative;
+    top: 7vh;
+}
+
+.fatos-cientificos{
+    margin-top: 4rem;
+}
+
+.negrito{
+    font-weight: 600;
+}
+
+.fatos-curiosos, .fatos-cientificos{
+    display: inline-block;
 }
