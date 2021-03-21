@@ -1,0 +1,21 @@
+.container-text {
+  width: 50%;
+  height: auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#btn {
+  background-color: rgb(5, 146, 0);
+  border: 0;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.123) !important;
+}
+
+#loading {
+  height: 20px;
+  width: 20px;
+}
