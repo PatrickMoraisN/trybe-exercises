@@ -40,4 +40,13 @@ const getValueByNumber = (obj, index) => {
 
 const verifyPair = (obj, key, value) => obj[key] && obj[key] === value
 
-console.log(verifyPair(lesson3, 'materia', 'Maria weweewClara'));
+
+const assert = require('assert');
+
+function division(x, y) {
+  return x / y;
+}
+
+const expected = division(9, 3);
+
+console.log(assert.strictEqual(expected, 3, 'Nove dividido por três é igual a três'));
