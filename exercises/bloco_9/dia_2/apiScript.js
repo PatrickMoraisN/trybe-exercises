@@ -8,7 +8,11 @@ const fetchJoke = async () => {
   }
   const response = await fetch(API_URL, obj);
   const postData = await response.json()
-  console.log(postData.joke)
+  return postData.joke;
 };
 
-window.onload = () => fetchJoke();
+const jokeOnPage = async () => {
+  const h2Element = document.querySelector('#jokeContainer');
+  h2Element.innerHTML = await fetchJoke();
+}
+window.onload = () => jokeOnPage();
