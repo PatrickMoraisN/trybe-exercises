@@ -19,7 +19,29 @@ function myRemove(arr, item) {
   return newArr;
 }
 
-// implemente seus testes aqui
+const obj1 = {
+  title: 'My Title',
+  description: 'My Description',
+};
+
+const obj2 = {
+  description: 'My Description',
+  title: 'My Title',
+};
+
+const obj3 = {
+  title: 'My Different Title',
+  description: 'My Description',
+};
+
+describe('Requisito 3', () => {
+  test('comparando objs iguais', () => {
+    expect(obj1).toEqual(obj2)
+  })
+  test('comparando objs diferentes', () => {
+    expect(obj2).not.toEqual(obj3)
+  })
+})
 
 describe('Requisito siberiano 1', () => {
   test('testando soma 4 e 5', () => {
