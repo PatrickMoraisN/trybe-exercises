@@ -1,0 +1,23 @@
+{
+  "name": "trybe-exercises",
+  "version": "1.0.0",
+  "description": "Repositório onde irei realizar os exercícios da Trybe !!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrickMoraisN/trybe-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatrickMoraisN/trybe-exercises/issues"
+  },
+  "homepage": "https://github.com/PatrickMoraisN/trybe-exercises#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
