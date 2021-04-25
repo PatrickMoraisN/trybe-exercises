@@ -21,15 +21,13 @@ const getAnimal = (animal) => {
 
 describe('Testando promise - findAnimalByName', () => {
   describe('Quando existe o animal com o nome procurado', () => {
-    test('Retorne o objeto do animal', async () => {
-      expect.assertions(1);
-      const animal = await getAnimal('Dorminhoco');
-      expect(animal).toEqual({ name: 'Dorminhoco', age: 1, type: 'Dog' });
+    test('Retorne o objeto do animal', () => {
+      return expect(getAnimal('Dorminhoco')).resolves.toEqual({ name: 'Dorminhoco', age: 1, type: 'Dog' });
     });
   });
 
   describe('Quando não existe o animal com o nome procurado', () => {
-    test('Retorna um erro', async () => {
+    test('Retorna um erro', () => {
         return expect(getAnimal('bob')).rejects.toEqual('Nenhum animal com esse nome!')
       });
   });
